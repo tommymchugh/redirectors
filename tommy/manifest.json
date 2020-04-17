@@ -1,0 +1,16 @@
+{
+    "name": "Tommy Request Router",
+    "version": "1.0",
+    "description": "Router for handling web requests",
+    "omnibox": { "keyword" : "tommy" },
+    "permissions": [
+        "webRequest",
+        "tabs",
+        "http://tommy/*",
+        "https://tommy/*"
+    ],
+    "background": {
+      "scripts": ["redirect.js"]
+    },
+    "manifest_version": 2
+  }
